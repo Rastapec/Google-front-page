@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!--echo "# Google-front-page" >> README.md
+git remote add origin https://github.com/Rastapec/Google-front-page.git-->
+
+    <html>
+        <head>
+          <!-- Title  -->
+            <title>Google.fr</title>
+            
+          <!--links used for the icons-->
+            <link rel="icon" href="google/google-icon.png">
+            <link href="Google.css" rel="stylesheet" type="text/css"> 
+            
+            <meta name='viewport' content='width=device-width, initial-scale=1'>
+            <script src='https://kit.fontawesome.com/a076d05399.js'></script> 
+
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">    
+
+        </head>
+
+    <body>
+        <!-- Google logo-->
+        <img src="google/logo.jpg"  alt="logo image" />
+        
+        <!-- The search bar-->  
+        <div class="topnav">
+
+          <!-- Icons and buttons which links to google affiliates (right hand corner) -->  
+            <a class="Gmail" href="https://www.google.fr/imghp?hl=fr&tab=ri&ogbl">Images</a>
+            <a class="Images" href="https://mail.google.com/mail/?tab=rm&ogbl">Gmail</a>
+            <i class="material-icons" style="font: size 24px;color:grey" href="https://www.google.fr/intl/fr/about/products?tab=wh" title="Applications google" >apps</i>
+            
+            <!-- Form and a table used as a navigation bar with a list-->  
+            <form method=GET action="http://www.google.fr/search?q=" >
+                <table background-color="#FFFFF" width="597"> 
+                    <div>
+                        <input TYPE=text name=q size=31 maxlength=255 value="" class="texte_recherche"  >
+                        <input TYPE=hidden name=hl value=fr>  
+                    </div>
+                </table>
+            </form>
+          </div>
+        
+        <!-- text used to indicated languages -->
+          <div class="texte">
+            <a  id="txt1">Google disponible en:</a>
+            <a  id="txt2">English</a>
+          </div>
+        <!-- Icons used in the search bar -->
+          <div class="loupe">
+              <i class='fas fa-search' style='font-size:18px;color:grey'></i>
+          </div>
+          <div class="voice">
+            <i class="material-icons" style="font-size:24px;color:grey" title="Recherche vocale" href="">keyboard_voice</i>
+          </div>
+
+        <!-- Buttons beneath the search bar -->
+        <button class="button1">Recherche Google  </button>
+        <button class="button2">J'ai de la chance  </button>
+
+        <!-- footer to put all the miscellaneous informations or help-->
+         <div class="footer">
+
+          <!-- Firt row -->
+          <a class="ligneH" >France</a>
+
+          <!-- Seperation line -->
+          <hr></hr>
+
+          <!-- Second row -->
+            <form action="https://www.google.fr/intl/fr_fr/ads/?">
+              <button type="submit" class="ligneB" id="publicite" >Publicité</button>
+            </form>
+
+            <form action="https://www.google.fr/services/">
+              <button type="submit" class="ligneB" id="Entreprise">Entreprise</button>
+            </form>
+
+            <form action="https://about.google/?">
+              <button type="submit" class="ligneB" id="A propos" >A propos</button>
+            </form>
+
+            <form action="https://google.com/search/howsearchworks/?">
+              <button type="submit" class="ligneB" id="Comment " >Comment fonctionne la recherche Google ?</button>
+            </form>
+
+            <form action="https://www.google.fr/preferences?">
+              <button type="submit" class="ligneD" id="parametre">Paramètres</button>
+            </form>
+
+            <form action="https://policies.google.com/terms?">
+              <button type="submit" class="ligneD" id="Conditions">Conditions</button>
+            </form>
+
+            <form action="https://policies.google.com/privacy?">
+              <button type="submit" class="ligneD" id="confidentialite">Confidentialité</button>
+            </form>
+
+            <form action="https://support.google.com/websearch?">
+              <button type="submit" class="ligneD" id="info">Infos consommateurs</button>
+            </form>
+
+        </div>
+
+    </body>
+
+</html>
